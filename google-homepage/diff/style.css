@@ -1,0 +1,285 @@
+/*html, body {
+   height:100%;
+   font-family: Arial, sans-serif;
+   font-size: 13px;
+}*/
+
+html, body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+* {
+	margin: 0;	
+	/*padding: 0;*/
+}
+
+a { text-decoration: none; }
+
+#header {
+	height: 59px;
+	background-color: #f1f1f1;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    /*min-width: 1000px;*/
+}
+
+#l_header{
+	float: left;
+}
+
+#google_logo_c{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#search_form_c{
+	display: inline-block;
+	vertical-align: middle;
+	/*max-width: 1000px;*/
+}
+
+#glogo{
+	margin-left: 16px;
+	margin-top: 6px;
+}
+
+/*#search_form_c{
+	padding: 10px 0;
+}*/
+
+#search-form-bar{
+	width: 638px;
+	height: 30px;
+	padding-bottom: 2px;
+    padding-top: 3px;
+	background-color: #fff;
+    border: 1px solid #d9d9d9;
+    vertical-align: middle;
+}
+
+#search_form_button{
+	margin-left: -15px;
+	height: 37px;
+	width: 37px;
+	vertical-align: middle;
+	border:none;
+	border-radius: 0 2px 2px 0;
+	background: #4285f4 url('spyglass.png') center no-repeat;
+
+}
+
+input[type=text] {
+	padding: 5px;
+	margin: 10px;
+}
+
+#lower_header{
+	position: absolute;
+	margin-top: 60px;
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+
+}
+
+#nav_menu_l{
+	vertical-align: middle;
+	padding: 0px 0;
+	margin-right: 15px;
+	margin-left: 80px;
+	height: 59px;
+    line-height: 54px;
+    background: #fff;    
+}
+
+nav li {
+	display: inline;
+	height: 35px;
+    margin: 2px 8px 0;
+    padding: 0 8px;
+    color: #808080;
+}
+
+#menu_all{
+	border-bottom: 3px solid #4285f4;
+    color: #4285f4;
+    font-weight: bold;
+    height: 35px;
+    margin: 2px 8px 0;
+    padding-bottom: 22px;
+}
+
+#searchtools{
+	border: none;
+	background: #fff;
+	color: #808080;
+}
+
+#searchtools:hover {
+	border:1px solid #dadada;
+	border-radius: 2px;
+	padding: 4px 8px;
+	background-color: #f5f5f5;
+    text-align: center;
+    line-height: 19px;
+    margin-left: 9px;
+    margin-right: 24px;
+	text-decoration:none;
+	font-size: 13px;
+    
+}
+
+#nav_menu_r{
+	position: absolute;
+	top: 5px;
+	right: 45px;
+}
+
+#rb_man{
+	background: #f5f5f5 url('nav_man.png') center no-repeat;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+ 	height: 31px;
+	min-width: 44px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+
+}
+
+#rb_globos{
+	background: #eee url('nav_globos.png') center no-repeat;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+ 	height: 31px;
+	min-width: 44px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+	margin-right: 10px;
+	margin-left: -4px;
+
+}
+
+#rb_gear{
+	background: #f5f5f5 url('nav_gear.png') center no-repeat;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    height: 31px;
+	width: 71px;
+	border-radius: 2px;
+	border: 1px solid #dadada;
+}
+
+#serp_container{
+	position: relative;
+	overflow: visible;
+}
+
+#results{
+	color: #808080;
+	line-height: 43px;
+	padding-left: 16px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    margin-left: 122px;
+	margin-top: 65px;
+}
+
+.serps{
+	margin-left: 138px;
+	max-width: 700px;
+}
+
+.serps h1{
+	font-size: 18px;
+	color: #4C41AD;
+	font-weight: normal;
+    margin: 0;
+}
+
+.serps h2{
+	font-weight: normal;
+	line-height: 1.4;
+	color: #6a6a6a;
+	font-size: small;
+	margin-bottom: 16px;
+}
+
+.serp-link{
+	color: #006621;
+	font-size: 14px;
+}
+
+.searched-related{
+	position: relative;
+	min-height: 140px;
+	padding: 10px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+    border-color: #e5e5e5;
+}
+
+#s_related {
+	color: #808080;
+    height: auto;
+    padding-bottom: 7px;
+    padding-top: 17px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.s_relatedl {
+	float: left;
+}
+
+.s_relatedl p, .s_relatedr p{
+	padding: 5px;
+}
+
+.s_relatedl p {
+	padding-right: 15px;
+}
+
+.gooogle {
+	height: 69px;
+	background-color: #fff;
+
+}
+
+#gooogle_img {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.gooogle_num{
+	text-align: center;
+	margin-left: 10px;
+}
+
+.gooogle_num a {
+	padding: 6px;
+
+}
+
+footer {
+	position: relative;
+    margin: 40px auto;
+    padding-top: 10px;
+	height: 69px;
+	background-color: #f1f1f1;
+	border-top: 1px solid #e4e4e4;
+    border-color: #e5e5e5;
+}
+
+footer ul li {
+	display: inline;
+	margin-left: 122px;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+	    
+}
